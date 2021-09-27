@@ -2,7 +2,7 @@ import websocket, json, pprint
 
 SOCKET = "wss://stream.binance.com:9443/ws/ethusdt@kline_1m"
 
-
+closes= []
 def on_open(ws):
     print('opened connection')
 
