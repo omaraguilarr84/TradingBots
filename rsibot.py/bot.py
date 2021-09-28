@@ -1,4 +1,6 @@
 import websocket, json, pprint, talib, numpy
+from binance.client import Client
+from binance.enums import *
 
 SOCKET = "wss://stream.binance.com:9443/ws/adausdt@kline_1m"
 RSI_PERIOD = 14
