@@ -1,5 +1,4 @@
 import bot
-import matplotlib
 import backtrader as bt
 import csv
 import os
